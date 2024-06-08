@@ -1,0 +1,490 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	font: 12pt "Segoe UI";
+	outline: none;
+	border: none;
+}
+
+QToolTip {
+	background-color: #f8f8f2;
+	border: 1px solid #CCC;
+	background-image: none;
+	background-position: left center;
+    background-repeat: no-repeat;
+	border-left: 2px solid rgb(255, 121, 198);
+	text-align: left;
+	padding-left: 8px;
+}
+
+QLabel{
+	padding: 5px;
+	margin: 5px;
+}
+
+QComboBox{
+	margin: 10px;
+	font: 600;
+	background-color: rgba(0,0,0,0);
+	border:none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	color: rgba(0, 0, 0, 240);
+}
+
+Line{
+	background-color: rgba(0, 0, 0, 150);
+}
+
+QDateEdit{
+	margin-top: 2px;
+	background-color: rgba(0, 0, 0, 0);
+	font: 600;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+}
+
+/*---------------------Start-QScrollBar------------------*/
+
+QScrollBar{
+	background-color: #61b4d0;
+}
+
+QScrollBar:vertical {
+    width: 15px;
+ }
+
+QScrollBar:horizontal {
+    height: 15px;
+ }
+
+QScrollBar::handle {
+	background-color: #61b4d0;
+	border-radius: 5px;
+}
+
+/*---------------------End-QScrollBar------------------*/
+/*---------------------Start-QTableWidget------------------*/
+
+QTableWidget {	
+	background-color: transparent;
+	padding: 2px;
+	border-radius: 5px;
+	gridline-color: #9faeda;
+}
+
+QTableWidget::item{
+	border-color: #9faeda;
+	padding-left: 5px;
+	padding-right: 5px;
+	gridline-color: #9faeda;
+}
+
+QTableWidget::item:selected{
+	background-color: rgba(0, 170, 0, 80);
+}
+
+QHeaderView{
+	border:none;
+	border-style: none;
+	font: 700;
+	color: #f8f8f2;
+}
+
+QHeaderView::section{
+	background-color: #61b4d0;
+	max-width: 30px;
+	border: 1px solid #61b4d0;
+}
+
+QHeaderView::section:horizontal
+{
+	padding: 3px;
+	border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+QHeaderView::section:vertical
+{
+	font: 700 12pt;
+	margin: 8px;
+	padding-left: 7px;
+	padding-bottom: 2px;
+	width: 17px;
+    border-radius: 12px;
+}
+
+/*---------------------End-QTableWidget------------------*/
+/*---------------------Start-userLoginStackPageWidget------------------*/
+
+#loginMainFrm{
+	border-top-left-radius:50px;
+	border-bottom-right-radius: 50px;
+	background-color: rgb(158, 232, 255);
+}
+
+#loginLeftFrm{
+	border-top-left-radius:50px;
+	background-color: rgba(0,0,0,80);
+}
+
+#loginDescriptionFrm{
+	margin-top: 50px;
+	padding: 10px;
+	background-color:rgba(0,0,0,75);
+}
+
+#loginCreatorName{
+	color:rgba(255,255,255,200);
+	background-color:rgba(0,0,0,0);
+}
+
+#loginWisher{
+	color: rgba(255,255,255,170);
+	background-color:rgba(0,0,0,0);
+}
+
+#loginRightFrm{
+	border-bottom-right-radius: 50px;
+}
+
+#loginTitle, #loginUsername, #loginPassword, #loginBtn{
+	margin: 10px;
+}
+
+#loginUsername, #loginPassword{
+	border-bottom: 2px solid rgba(46, 82, 101, 180);
+}
+
+#loginBtn{
+	text-align: center;
+	font: 700 14pt;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
+	color:rgba(255,255,255,210);
+	border-radius:5px;
+}
+
+#loginBtn:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+#loginBtn:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	backbground-color: rgba(150,123,111,255);
+}
+
+/*---------------------End-userLoginStackPageWidget---------------------*/
+/*----------------------Start-adminStackPageWidget-----------------------*/
+/*------------------------Start-Admin Sidebar----------------------------*/
+
+#aOSPIconNameFrm, #aOSPIconsOnlyFrm, #aOSPNameOnlyFrm{
+	background-color: rgba(37, 150, 190, 120);
+}
+
+#aOSPIconNameFrm QPushButton{
+	background-color: rgba(37, 150, 190, 0);
+	text-align: left;
+	padding: 10px;
+}
+
+#aOSPIconNameFrm QPushButton:hover{
+	background-color: rgba(255, 255, 255, 220);
+	padding: 10px 5px;
+	border-top-left-radius: 20px;
+}
+
+#aOSPIconNameFrm QPushButton:pressed{
+	background-color: rgb(255, 255, 255);
+	padding: 10px 5px;
+	border-top-left-radius: 20px;
+}
+
+#aOSPIconNameFrm QPushButton:Checked{
+	background-color: rgba(255, 255, 255, 255);
+	padding: 10px 5px;
+	border-top-left-radius: 20px;
+}
+/*--------------------------End-Admin Sidebar----------------------------*/
+/*-----------------------Start-Admin Dashboard--------------------------*/
+
+#aOSPISTSFrm, #aOSPISTSFrm QLabel{
+	background-color: #7DA0FA;
+	border-radius: 40px;
+}
+
+#aOSPISNSFrm, #aOSPISNSFrm QLabel{
+	background-color: #4B49AC;
+	border-radius: 40px;
+}
+
+#aOSPISCWFrm, #aOSPISCWFrm QLabel{
+	background-color: #7978E9;
+	border-radius: 40px;
+}
+
+#aOSPISTFCFrm, #aOSPISTFCFrm QLabel{
+	background-color: #F3797E;
+	border-radius: 40px;
+}
+
+#aOSPISWhetherFrm{
+	border-image: url(:/image/assets/unsplash.jpg);
+	border-radius: 10px;
+}
+
+#aOSPISWhetherFrm QLabel{
+	background: none;
+	margin: 10px;
+	pading: 10px;
+}
+/*-----------------------End-Admin Dashboard--------------------------*/
+/*-----------------------Start-University Detail--------------------------*/
+
+#aOSPISAVUUniversityFrm, #aOSPISAVUCourseFrm, #aOSPISAVUSubjectFrm, #aOSPISAVUExamFrm{
+	margin: 2px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#aOSPISAVUUniversityFunctionFrm QPushButton{
+	margin: 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#aOSPISAVUUniversityFunctionFrm QPushButton:hover{
+	background-color: rgba(192, 192, 192, 200);
+	padding-left: 5px;
+}
+
+#aOSPISAVUUniversityFunctionFrm QPushButton:pressed{
+	background-color: rgba(192, 192, 192, 100);
+	padding-left: 0px;
+}
+
+#aOSPISAVUCourseFunctionFrm QPushButton{
+	margin: 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#aOSPISAVUCourseFunctionFrm QPushButton:hover{
+	background-color: rgba(192, 192, 192, 200);
+	padding-left: 5px;
+}
+
+#aOSPISAVUCourseFunctionFrm QPushButton:pressed{
+	background-color: rgba(192, 192, 192, 100);
+	padding-left: 0px;
+}
+
+#aOSPISAVUSubjectFunctionFrm QPushButton{
+	margin: 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#aOSPISAVUSubjectFunctionFrm QPushButton:hover{
+	background-color: rgba(192, 192, 192, 200);
+	padding-left: 5px;
+}
+
+#aOSPISAVUSubjectFunctionFrm QPushButton:pressed{
+	background-color: rgba(192, 192, 192, 100);
+	padding-left: 0px;
+}
+
+#aOSPISAVUExamFunctionFrm QPushButton{
+	margin: 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#aOSPISAVUExamFunctionFrm QPushButton:hover{
+	background-color: rgba(192, 192, 192, 200);
+	padding-left: 5px;
+}
+
+#aOSPISAVUExamFunctionFrm QPushButton:pressed{
+	background-color: rgba(192, 192, 192, 100);
+	padding-left: 0px;
+}
+
+/*-----------------------End-University Detail--------------------------*/
+/*-----------------------Start-Allotment Detail--------------------------*/
+
+#aOSPISAllotmentLeftFrm, #aOSPISAllotmentRightFrm{
+	margin: 2px;
+	padding: 2px;
+}
+
+#aOSPISAllotmentLBottomFrm, #aOSPISAllotmentRTopFrm, #aOSPISAllotmentRBottomFrm{
+	margin: 2px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#aOSPISAllotmentMainWidget QPushButton{
+	margin: 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#aOSPISAllotmentMainWidget QPushButton:hover{
+	background-color: rgba(192, 192, 192, 200);
+	padding-left: 5px;
+}
+
+#aOSPISAllotmentMainWidget QPushButton:pressed{
+	background-color: rgba(192, 192, 192, 100);
+	padding-left: 0px;
+}
+
+/*-----------------------End-Allotment Detail--------------------------*/
+/*-----------------------Start-Journey Detail--------------------------*/
+
+#aOSPISJFunctionFrm{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+#aOSPISJFunctionFrm QPushButton{
+	background-color: #61b4d0;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+#aOSPISJFunctionFrm QPushButton:hover{
+	color: rgba(255, 255, 255, 200);
+	background-color: rgba(0, 85, 255, 150);
+}
+
+#aOSPISJFunctionFrm QPushButton:pressed{
+	color: rgba(255, 255, 255, 255);
+	background-color: rgba(0, 85, 255, 180);
+}
+
+/*----------------------------End-Journey Detail--------------------------*/
+/*----------------------End-adminStackPageWidget-----------------------*/
+/*----------------------Start-userStackPageWidget-----------------------*/
+/*------------------------Start-User Sidebar----------------------------*/
+
+#uOSPIconNameFrm, #uOSPIconsOnlyFrm, #uOSPNameOnlyFrm{
+	background-color: rgba(37, 150, 190, 120);
+}
+
+#uOSPIconNameFrm QPushButton{
+	background-color: rgba(37, 150, 190, 0);
+	text-align: left;
+	padding: 10px;
+}
+
+#uOSPIconNameFrm QPushButton:hover{
+	background-color: rgba(255, 255, 255, 220);
+	padding: 10px 5px;
+	border-top-left-radius: 20px;
+}
+
+#uOSPIconNameFrm QPushButton:pressed{
+	background-color: rgb(255, 255, 255);
+	padding: 10px 5px;
+	border-top-left-radius: 20px;
+}
+
+#uOSPIconNameFrm QPushButton:Checked{
+	background-color: rgba(255, 255, 255, 255);
+	padding: 10px 5px;
+	border-top-left-radius: 20px;
+}
+
+/*------------------------End-User Sidebar----------------------------*/
+#uOSPMSWhetherFrm{
+	border-image: url(:/image/assets/unsplash.jpg);
+	border-radius: 10px;
+}
+
+#uOSPMSWhetherFrm QLabel{
+	background: none;
+	margin: 10px;
+	pading: 10px;
+}
+
+#uOSPMSAddStudentFrm{
+	background-color: #7DA0FA;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#uOSPMSViewStudentFrm{
+	background-color: #4B49AC;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#uOSPMSBookTransportFrm{
+	
+	background-color: #7978E9;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#uOSPMSViewJourneyFrm{
+	background-color: #F3797E;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#uOSPMSFunctionFrm QPushButton{
+	background: none;
+	text-align: center;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#uOSPMSFunctionFrm QPushButton:hover{
+	background-color: rgba(255, 255, 255, 220);
+	text-align: left;
+	padding: 10px 5px;
+}
+
+#uOSPMSFunctionFrm QPushButton:pressed{
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+#uOSPMISSFPrintBtn{
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#uOSPMISSFPrintBtn:hover{
+	background-color: rgba(192, 192, 192, 200);
+	padding-left: 0px;
+}
+
+#uOSPMISSFPrintBtn:pressed{
+	background-color: rgba(192, 192, 192, 100);
+	padding: 10px;
+}
+
+#uOSPMISJFPrintBtn{
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#uOSPMISJFPrintBtn:hover{
+	background-color: rgba(192, 192, 192, 200);
+	padding-left: 0px;
+}
+
+#uOSPMISJFPrintBtn:pressed{
+	background-color: rgba(192, 192, 192, 100);
+	padding: 10px;
+}
+
+/*----------------------end-userStackPageWidget-----------------------*/

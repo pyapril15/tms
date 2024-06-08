@@ -1,0 +1,39 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>assets/icon/add.svg</file>
+    <file>assets/icon/add_student.svg</file>
+    <file>assets/icon/add_user.svg</file>
+    <file>assets/icon/allotment.svg</file>
+    <file>assets/icon/bus.svg</file>
+    <file>assets/icon/clear.svg</file>
+    <file>assets/icon/delete.svg</file>
+    <file>assets/icon/graph1.jpg</file>
+    <file>assets/icon/graph2.jpg</file>
+    <file>assets/icon/home.svg</file>
+    <file>assets/icon/journey.svg</file>
+    <file>assets/icon/logout.svg</file>
+    <file>assets/icon/menu.svg</file>
+    <file>assets/icon/pay_fee.svg</file>
+    <file>assets/icon/payment.svg</file>
+    <file>assets/icon/save.svg</file>
+    <file>assets/icon/search.svg</file>
+    <file>assets/icon/search_user.svg</file>
+    <file>assets/icon/switch_user.svg</file>
+    <file>assets/icon/university_detail.svg</file>
+    <file>assets/icon/user.svg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>assets/icons/add.svg</file>
+    <file>assets/icons/bus.png</file>
+    <file>assets/icons/delete.svg</file>
+    <file>assets/icons/edit.svg</file>
+    <file>assets/icons/printer.ico</file>
+    <file>assets/icons/printer.svg</file>
+    <file>assets/icons/printer_outline.svg</file>
+  </qresource>
+  <qresource prefix="image">
+    <file>assets/mcmt.png</file>
+    <file>assets/mcmt_logo.jpg</file>
+    <file>assets/unsplash.jpg</file>
+  </qresource>
+</RCC>
